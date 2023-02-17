@@ -7,13 +7,13 @@ function tocar(event){
     if(event.buttons === 1){
         audioEsquerdo.currentTime = 0;
         audioEsquerdo.play();
-        img.setAttribute('src', 'img/02.png');  
+        img.setAttribute('src', '.img/02.png');  
     }
 
     if(event.buttons === 2){
         audioDireito.currentTime = 0;
         audioDireito.play();
-        img.setAttribute('src', 'img/03.png');  
+        img.setAttribute('src', './img/03.png');  
     }
 }
 
