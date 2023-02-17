@@ -7,7 +7,7 @@ function tocar(event){
     if(event.buttons === 1){
         audioEsquerdo.currentTime = 0;
         audioEsquerdo.play();
-        img.setAttribute('src', '.img/02.png');  
+        img.setAttribute('src', '/img/02.png');  
     }
 
     if(event.buttons === 2){
